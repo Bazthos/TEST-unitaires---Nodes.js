@@ -3,7 +3,7 @@ const app = require('../backend/server');
 let server;
 
 beforeAll((done) => {
-    server = app.listen(5000, () => {
+    server = app.listen(5001, () => {
         console.log('Test server running on port 5001');
         done();
     });
